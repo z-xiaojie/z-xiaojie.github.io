@@ -23,7 +23,9 @@ int main(){
      }
      //3.Understand the problem well. In this case, we calculate 1+2+...+n.
      /*
-	lab2 : p(n+1) = (1+g-h)p(n) - gp(n)*(p(n)/M).
+	lab2 : p(n+1) = (1+g-h)*p(n) - g*p(n)*p(n)/M.
+	user prompt : 0 < g , 0 < h < 1 ,  0 < M
+	datatype:  g and h is "double", M is "int" 
      */
      for( int i=1 ; i <= n ; i++){
 	 sum = sum + i;
@@ -33,7 +35,7 @@ int main(){
 
 /*
     Put your test case here.
-    lab2 : p(0) = 10 , M = 100 , h = 0.20 , g = 1.25 or 2.50 or 3.00
+    lab2 : p(0) = 10 , M = 100 , h = 0.20 , g = 1.25 or 2.50 or 3.00 or ..
 */
 
 /*
